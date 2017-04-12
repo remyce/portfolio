@@ -1,0 +1,53 @@
+.container{
+  width: 500px;
+  height: 500px;
+  /*border: solid black 2px;*/
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.name {
+  width: 100.2%;
+  height: 150px;
+  border: solid black 3px;
+  position: absolute;
+}
+
+.role {
+  width: 101.2%;
+  height: 39px;
+  border-top: solid black 2px;
+  position: absolute;
+  top: 21%;
+  left: 0%;
+}
+
+.about {
+  position: absolute;
+  width: 33%;
+  height: 40%;
+  top: 30.5%;
+  left: 0%;
+  border: solid black 3px;
+}
+
+.project {
+  position: absolute;
+  width: 33%;
+  height: 77%;
+  left: 33.6%;
+  top: 30.5%;
+  border: solid black 3px;
+}
+
+.contact {
+  position: absolute;
+  top: 30.5%;
+  left: 67.2%;
+  width: 33%;
+  height: 65%;
+  border: solid black 3px;
+  z-index: 1;
+}
