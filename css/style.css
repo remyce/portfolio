@@ -111,10 +111,24 @@
 
 .project h3 {
   top: 67%;
-      left: -33%;
+  left: -33%;
 }
 
 .contact h3 {
   top: 58%;
   left: -29%;
+}
+
+/*hover*/
+
+.about:hover {
+  background: url('../images/space.jpg');
+}
+
+.project:hover {
+  background: url('../images/space.jpg');
+}
+
+.contact:hover {
+  background: url('../images/space.jpg');
 }
