@@ -1,20 +1,4 @@
-/*header*/
-nav {
-  width: 500px;
-  display: block;
-  position: relative;
-  margin: auto;
-}
-
-.links a {
-  font-family: 'jaapokki', sans-serif;
-  line-height: 100%;
-  text-transform: uppercase;
-  position: relative;
-  top: 10px;
-  left: 28.5%;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');/*header*/
 .name2 {
   width: 81.2%;
   height: 129px;
@@ -34,31 +18,64 @@ nav {
   left: 12%;
 }
 
+/*navigation*/
+nav {
+  width: 500px;
+  display: block;
+  position: relative;
+  margin: auto;
+}
 
-/*rectangle*/
+.links a {
+  font-family: 'jaapokki', sans-serif;
+  line-height: 100%;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+  left: 28.5%;
+}
+
+/*layout*/
 .container {
   width: 500px;
   height: 500px;
   position: relative;
-  /*display: block;*/
   margin: auto;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 
-/*text*/
+/*body*/
+
+/*p {
+  font-family: 'Droid Serif', serif;
+}*/
 
 .container p {
   margin-left: 8%;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li {
+    margin-left: -32.5%;
+}
+
 .skills {
   position: absolute;
-  top: 75%;
+  top: 104%;
   left: 8%;
 }
 
 .love {
   position: absolute;
-  top: 75%;
-  left: 54%;
+  top: 104%;
+  left: 52%;
+}
+
+.skills, .love, ul, .container p, p{
+  font-family: 'Droid Serif', serif;
+  line-height: 1.5;
+
 }
