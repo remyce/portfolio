@@ -119,6 +119,7 @@
   left: -29%;
 }
 
+
 /*hover*/
 
 .about:hover {
@@ -131,4 +132,10 @@
 
 .contact:hover {
   background: url('../images/space.jpg');
+}
+
+
+/*social*/
+.social a {
+  width: 100px;
 }
