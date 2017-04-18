@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');/*header*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
+/*header*/
 .name2 {
   width: 81.2%;
   height: 129px;
@@ -33,6 +34,7 @@ nav {
   position: relative;
   top: 10px;
   left: 28.5%;
+    padding-right: 7px;
 }
 
 /*layout*/
